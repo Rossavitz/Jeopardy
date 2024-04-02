@@ -1,0 +1,58 @@
+/* some colors you may find useful:
+  #115ff4
+  #060ce9
+  #28a200
+  #8d2ab5
+  #74119c
+*/
+body{
+  background-color: #115ff4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+table {
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  /* border: white solid 2px; */
+}
+
+td {
+  width: 180px;
+  height: 150px;
+  border: white solid 1px;
+  background-color:   #060ce9;
+}
+
+thead tr td{
+  font-size: 1.5rem;
+  font-weight: bold;
+  width: 180px;
+}
+
+button {
+height: 75px;
+width: 150px;
+font-size: 1.5rem;
+background-color: #8d2ab5;
+color: white;
+border-radius: 15px;
+border: none;
+margin-bottom: 15px;
+}
+
+button:hover{
+background-color: #74119c;
+}
+
+h1 {
+  font-size: 4rem;
+  color: white;
+  margin-bottom: 15px; 
+}
+
+.answer {
+  background-color: #28a200
+}
